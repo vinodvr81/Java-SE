@@ -10,7 +10,7 @@ class MyFrame extends Frame
             {
                 super("Grid Layout Demo");
                 
-                setLayout(new GridLayout(3,2));
+                //setLayout(new GridLayout(3,2));
                 
                 b1=new Button("one");
                 b2=new Button("two");
@@ -29,9 +29,13 @@ class MyFrame extends Frame
                 add(b6);
 }
 }
-public class GridLayoutDemo {
+public class GridLayout{
 
-    public static void main(String[] args) {
+    public GridLayout(int i, int j) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
 
         MyFrame f=new MyFrame();
         f.setSize(500,500);

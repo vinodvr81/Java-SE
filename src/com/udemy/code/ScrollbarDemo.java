@@ -34,7 +34,7 @@ class MyFrame extends Frame implements AdjustmentListener
         green.addAdjustmentListener(this);
     }
 
-    @Override
+    @java.lang.Override
     public void adjustmentValueChanged(AdjustmentEvent e) {
         tf.setBackground(new Color(red.getValue(),blue.getValue(),green.getValue()));
   

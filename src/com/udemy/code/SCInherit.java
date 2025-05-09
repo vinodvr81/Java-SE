@@ -1,7 +1,7 @@
 package com.udemy.code;
 
 
-class Account
+class AccountTy
 {
     private String accNo;
     private String name;
@@ -10,7 +10,7 @@ class Account
     private String dob;
     protected long balance;
     
-    public Account(String acc,String n,String add,String phno,String dob)
+    public AccountTy(String acc,String n,String add,String phno,String dob)
     {
         accNo=acc;
         name=n;
@@ -37,9 +37,13 @@ class Account
             
 }
 
-class SavingsAccount extends Account
+class SavingsAccountTy extends AccountTy
 {
-    public void deposit(long amt)
+    public SavingsAccountTy(String acc, String n, String add, String phno, String dob) {
+		super(acc, n, add, phno, dob);
+		// TODO Auto-generated constructor stub
+	}
+	public void deposit(long amt)
     {
         balance+=amt;
     }
@@ -49,9 +53,13 @@ class SavingsAccount extends Account
     }
 }
 
-class LoanAccount extends Account
+class LoanAccountTy extends AccountTy
 {
-    public void payEMI(long amt)
+    public LoanAccountTy(String acc, String n, String add, String phno, String dob) {
+		super(acc, n, add, phno, dob);
+		// TODO Auto-generated constructor stub
+	}
+	public void payEMI(long amt)
     {
         balance-=amt;
     }

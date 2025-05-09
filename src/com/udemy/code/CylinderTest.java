@@ -1,15 +1,15 @@
 package com.udemy.code;
 
-class  Cylinder
+class  CylinderNew
 {
     private int radius;
     private int height;
     
-    public Cylinder()
+    public CylinderNew()
     {
         radius=height=1;
     }
-    public Cylinder(int r,int h)
+    public CylinderNew(int r,int h)
     {
         radius=r;
         height=h;
@@ -65,7 +65,7 @@ class  Cylinder
 public class CylinderTest {
 
     public static void main(String[] args) {
-        Cylinder c=new Cylinder();
+    	CylinderNew c=new CylinderNew();
         c.setHeight(10);
         c.setRadius(7);
         c.setDimensions(10, 7);

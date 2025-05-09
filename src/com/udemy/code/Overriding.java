@@ -12,10 +12,10 @@ class TV
 
 class SmartTV extends TV
 {
-    @Override
+    @java.lang.Override
     public void switchON(){ System.out.println("Smart TV is Switched ON"); }
     
-    @Override
+    @java.lang.Override
     public void changeChannel() { System.out.println("SmartTV Channel is Changed "); }
     
     public void browse(){ System.out.println("Smart Tv Browsing"); }

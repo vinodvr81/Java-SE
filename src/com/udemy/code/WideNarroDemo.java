@@ -1,7 +1,7 @@
 
 package com.udemy.code;
 
-public class WideNArroDemo 
+public class WideNarroDemo 
 {
     public static void main(String[] args) 
     {
@@ -22,10 +22,13 @@ public class WideNArroDemo
        System.out.println(i);
        f=c;
        d=c;
-       s=c;
+       s=(short) c;
        i=c;
        
-        
+       System.out.println(f);
+       System.out.println(d);
+       System.out.println(s);
+       System.out.println(i);
        
         
         

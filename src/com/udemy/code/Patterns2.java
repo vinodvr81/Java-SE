@@ -1,6 +1,6 @@
 package com.udemy.code;
 
-public class Patterns1 {
+public class Patterns2 {
 
     /*public static void main(String[] args) {
         

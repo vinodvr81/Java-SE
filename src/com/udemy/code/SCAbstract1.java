@@ -6,7 +6,7 @@ abstract class Shape
    abstract public double area();
 }
 
-class Circle extends Shape
+class CircleNT extends Shape
 {
     double radius;
     
@@ -21,7 +21,7 @@ class Circle extends Shape
             
 }
         
-class Rectangle extends Shape
+class RectangleNT extends Shape
 {
     double length;
     double breadth;
@@ -41,7 +41,7 @@ public class SCAbstract1
 {
     public static void main(String[] args) 
     {
-        Rectangle r=new Rectangle();
+        RectangleNT r=new RectangleNT();
         r.length=10;
         r.breadth=5;
         

@@ -3,7 +3,7 @@ package com.udemy.code;
 
 import java.io.*;
 
-class Student
+class StudentNx
 {
     int rollno;
     String name;
@@ -18,7 +18,7 @@ public class PrintStreamDemo
         PrintStream ps=new PrintStream(fos);
         
         
-        Student s=new Student();
+        StudentNx s=new StudentNx();
         s.rollno=10;
         s.name="John";
         s.dept="CSE";

@@ -6,7 +6,7 @@ import java.lang.annotation.*;
 //@Documented
 //@Target(value=ElementType.LOCAL_VARIABLE,ElementType.METHOD)
 //Repeatable(MyAnno.class)
-@interface MyAnno
+@interface MyAnnoNew
 {
     String name();
     String project();
@@ -18,7 +18,7 @@ import java.lang.annotation.*;
 public class AnnoDemo1
 {
     int data;
-    //@MyAnno(name="Ajay",project="Bank")
+    @MyAnnoNew(name="Ajay",project="Bank")
     
     
     //@MyAnno(name="Ajay")

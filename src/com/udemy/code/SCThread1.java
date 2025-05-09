@@ -24,13 +24,13 @@ class ATM
     }
 }
 
-class Customer extends Thread
+class CustomerThread extends Thread
 {
     String name;
     int amount;
     ATM atm;
     
-    Customer(String n,ATM a,int amt)
+    CustomerThread(String n,ATM a,int amt)
     {
         name=n;
         atm=a;
@@ -52,8 +52,8 @@ public class SCThread1
     public static void main(String[] args) 
     {
         ATM atm=new ATM();
-        Customer c1=new Customer("Smith",atm,100);
-        Customer c2=new Customer("John",atm,200);
+        CustomerThread c1=new CustomerThread("Smith",atm,100);
+        CustomerThread c2=new CustomerThread("John",atm,200);
         c1.start();
         c2.start();
         

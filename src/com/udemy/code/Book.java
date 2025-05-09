@@ -2,13 +2,6 @@
 package com.udemy.code;
 
 
-/**
- * 
- * @author abdulbari
- * 
- * Class for Library Book
- */
-
 
 public class Book
 { 

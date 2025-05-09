@@ -45,10 +45,15 @@ class MyFrame extends JFrame implements TreeSelectionListener
         
     }
 
-    @Override
+    @java.lang.Override
     public void valueChanged(TreeSelectionEvent e) {
         label.setText(e.getPath().toString());
     }
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
     
     
     

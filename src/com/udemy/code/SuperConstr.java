@@ -1,28 +1,28 @@
 package com.udemy.code;
 
-class Parent
+class ParentY
 {
-    Parent()
+	ParentY()
     {
         System.out.println("Non-Param of parent");
     }
-    Parent(int x)
+	ParentY(int x)
     {
         System.out.println("Param of parent "+x);
     }
 }
 
-class Child extends Parent
+class ChildY extends ParentY
 {
-    Child()
+	ChildY()
     {
         System.out.println("Non-Param of child");
     }
-    Child(int y)
+	ChildY(int y)
     {
         System.out.println("Param of child");
     }
-    Child(int x,int y)
+	ChildY(int x,int y)
     {
         super(x);
         System.out.println("2 param of child "+y);
@@ -34,7 +34,7 @@ public class SuperConstr {
     public static void main(String[] args) {
         //Child c=new Child();
         //Child c=new Child(20);
-        Child c=new Child(10,20);
+    	ChildY c=new ChildY(10,20);
     }
     
 }

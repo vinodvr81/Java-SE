@@ -10,10 +10,10 @@ class Student implements Serializable
     public static int Data=10;
     public transient int t;
     
-    public Student()
-    {
-        
-    }
+//    public Student()
+//    {
+//        
+//    }
     public Student(int r,String n,float a,String d)
     {
         rollno=r;

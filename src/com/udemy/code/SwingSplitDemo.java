@@ -52,10 +52,15 @@ class MyFrame extends JFrame
       
                
     }
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
             
 }
 
-public class SwingTwo {
+public class SwingSplitDemo {
 
         public static void main(String[] args) {
          MyFrame f=new MyFrame();

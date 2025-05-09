@@ -1,7 +1,7 @@
 
 package com.udemy.code;
 
-class Outer
+class OuterType
 {
     static int x=10;
     Inner i=new Inner();
@@ -28,7 +28,7 @@ public class NestedInner {
 
     public static void main(String[] args) 
     {
-        Outer.Inner oi=new Outer().new Inner();
+    	OuterType.Inner oi=new OuterType().new Inner();
         oi.innerDisplay();
         
     }

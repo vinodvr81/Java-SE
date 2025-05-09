@@ -1,6 +1,6 @@
 package com.udemy.code;
 
-class Super
+class SuperT
 {
     public void display()
     {
@@ -8,7 +8,7 @@ class Super
     }
 }
 
-class Sub extends Super
+class SubT extends SuperT
 {
     public void display()
     {
@@ -20,7 +20,7 @@ public class Override
 {
     public static void main(String[] args) 
     {
-        Super s=new Sub();
+        SuperT s=new SubT();
         s.display();
           
     }    

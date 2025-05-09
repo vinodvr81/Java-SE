@@ -47,13 +47,13 @@ class MyFrame extends JFrame implements ActionListener,ListSelectionListener,Cha
         tf.setText((String)cb.getSelectedItem());
     }
 
-    @Override
+    @java.lang.Override
     public void valueChanged(ListSelectionEvent e) 
     {
         tf.setText((String)list.getSelectedValue());
     }
 
-    @Override
+    @java.lang.Override
     public void stateChanged(ChangeEvent e) 
     {
         if(e.getSource()==sp1)
@@ -61,6 +61,11 @@ class MyFrame extends JFrame implements ActionListener,ListSelectionListener,Cha
         else
             tf.setText((String)sp2.getValue());
     }
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
     
 }
 

@@ -1,7 +1,7 @@
 
 package com.udemy.code;
 
-interface Test
+interface TestNew
 {
     final static int X=10;
     public abstract void meth1();
@@ -12,12 +12,12 @@ interface Test
     }
 }
 
-interface Test2 extends Test
+interface Test2 extends TestNew
 {
     void meth4();
 }
 
-class My implements Test2
+class MyTestNew implements Test2
 {
     public void meth1(){System.out.println("Meth1");}
     public void meth2(){System.out.println("Meth2");}
@@ -27,8 +27,8 @@ public class InterfacePractice
 {
     public static void main(String[] args) 
     {
-        System.out.println(Test.X);
-        Test.meth3();
+        System.out.println(TestNew.X);
+        TestNew.meth3();
         
     }
 }

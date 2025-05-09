@@ -2,7 +2,7 @@ package com.udemy.code;
 
 
 
-class Super
+class SuperX
 {
     private void display()//or even protected may not give any error.
     {
@@ -11,7 +11,7 @@ class Super
     }
 }
 
-class Sub extends Super    
+class SubX extends SuperX    
 {
     //@Override if public
     public void display()
@@ -25,7 +25,7 @@ public class OverrideRules {
 
     public static void main(String[] args) {
         
-        Sub s=new Sub();
+        SubX s=new SubX();
         
     }
     

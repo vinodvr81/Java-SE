@@ -4,14 +4,14 @@ import java.awt.*;
 import java.awt.event.*;
 
 
-public class MyMenu extends Frame implements ActionListener
+public class MyMenu2 extends Frame implements ActionListener
 {
     Label l;
     Menu file;
     MenuItem n,o,s,c,e;
     MenuBar mb;
     
-    MyMenu()
+    MyMenu2()
     {
         l=new Label("Menu Option");
         l.setAlignment(Label.CENTER);
@@ -35,7 +35,7 @@ public class MyMenu extends Frame implements ActionListener
         e.addActionListener(this);
 
     }
-    @Override
+    @java.lang.Override
     public void actionPerformed(ActionEvent ae)
     {
         String option=ae.getActionCommand();
@@ -57,7 +57,7 @@ public class MyMenu extends Frame implements ActionListener
     }
     public static void main(String[] args) 
     {
-        MyMenu m=new MyMenu();
+    	MyMenu2 m=new MyMenu2();
         m.setSize(300,300);
         m.setVisible(true);
     }

@@ -1,6 +1,6 @@
 package com.udemy.code;
 
-class Rectangle
+class RectangleN
 {
     private double length;
     private double breadth;
@@ -55,7 +55,7 @@ class Rectangle
 public class RectangleTest1 {
 
     public static void main(String[] args) {
-        Rectangle r=new Rectangle();
+    	RectangleN r=new RectangleN();
         r.setLength(10.5);//check with negative values.
         r.setBreadth(5.5);
         

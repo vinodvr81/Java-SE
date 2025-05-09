@@ -1,14 +1,14 @@
 package com.udemy.code;
 
 
-class Subject
+class SubjectT
 {
     private String subID;
     private String name;
     private int maxMarks;
     private int marksObtain;
     
-    public Subject(String subID,String name,int maxMarks)
+    public SubjectT(String subID,String name,int maxMarks)
     {
         this.subID=subID;
         this.name=name;
@@ -37,22 +37,22 @@ class Subject
     }
 }
 
-class Student
+class StudentN
 {
     private String rollNo;
     private String name;
     private String dept;
     private int numOfSub;
-    private Subject sub[];
+    private SubjectT sub[];
     
     
-    public Student(String roll,String name)
+    public void SubjectT(String roll,String name)
     {
          this.rollNo=roll;
          this.name=name;
          
     }
-    public Student(String roll,String name,int ns)
+    public void SubjectT(String roll,String name,int ns)
     {
          this.rollNo=roll;
          this.name=name;
@@ -63,13 +63,13 @@ class Student
     public String getName(){return name;}
     public String getDept(){return dept;}
     public int getNoOfSubjects(){return numOfSub;}
-    public Subject[] getSubjects(){return sub;}
+    public SubjectT[] getSubjects(){return sub;}
     
     public void setDept(String dept)
     {
         this.dept=dept;
     }
-    public void setSubjects(Subject ...subs)
+    public void setSubjects(SubjectT ...subs)
     {
         for(int i=0;i<subs.length;i++)
             sub[i]=subs[i];
@@ -87,12 +87,12 @@ public class SCoops3
     
     public static void main(String[] args) 
     {
-        Subject subs[]=new Subject[3];
-        subs[0]=new Subject("s101","DS",100);
-        subs[1]=new Subject("s102","Algorithms",100);
-        subs[2]=new Subject("s103","Operating Systems",100);
+    	SubjectT subs[]=new SubjectT[3];
+        subs[0]=new SubjectT("s101","DS",100);
+        subs[1]=new SubjectT("s102","Algorithms",100);
+        subs[2]=new SubjectT("s103","Operating Systems",100);
         
-        for(Subject s:subs)
+        for(SubjectT s:subs)
             System.out.println(s);
         
     }

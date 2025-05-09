@@ -62,7 +62,7 @@ class MyFrame extends Frame implements ItemListener
                 add(mainp,BorderLayout.CENTER);
             }
 
-    @Override
+    @java.lang.Override
     public void itemStateChanged(ItemEvent e) {
         if(c.getState())
             cl.first(mainp);

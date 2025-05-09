@@ -1,7 +1,7 @@
 
 package com.udemy.code;
 
-class Student
+class StudentC
 {
     public int roll;
     public String name;
@@ -34,7 +34,7 @@ public class StudentTest
 
     public static void main(String[] args) 
     {
-        Student s=new Student();
+    	StudentC s=new StudentC();
         
         s.roll=1;
         s.name="John";

@@ -1,6 +1,6 @@
 package com.udemy.code;
 
-class Test
+class TestNr
 {
     static int x=10;
     int y=20;
@@ -20,12 +20,12 @@ public class StaticPractice {
 
     public static void main(String[] args) {
         
-        Test t1=new Test();
+    	TestNr t1=new TestNr();
         t1.show();
         t1.x=30;
         t1.y=50; 
         
-        Test t2=new Test();
+        TestNr t2=new TestNr();
         t2.show();
         
     }

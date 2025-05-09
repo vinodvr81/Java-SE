@@ -82,6 +82,11 @@ class MyFrame extends JFrame implements ActionListener
             ta.setForeground(col);
         }
     }
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
     
 }
 public class SwingMenuTool 

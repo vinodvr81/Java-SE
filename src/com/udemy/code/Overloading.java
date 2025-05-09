@@ -1,7 +1,7 @@
 
 package com.udemy.code;
 
-class Test
+class TestN
 {
     public int max(int a,int b)
     {
@@ -20,7 +20,7 @@ public class Overloading
 {
     public static void main(String[] args) 
     {
-        Test t=new Test();
+    	TestN t=new TestN();
         t.max(10,5);
         t.max(10,15,5);
         

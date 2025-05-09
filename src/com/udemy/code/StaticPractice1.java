@@ -1,6 +1,6 @@
 package com.udemy.code;
 
-class Test
+class TestAb
 {
     static
     {
@@ -27,7 +27,7 @@ public class StaticPractice1 {
     {
         //Test t=new Test();
         System.out.println("Main");
-        Test t=new Test();
+        TestAb t=new TestAb();
     }
     
     /*static

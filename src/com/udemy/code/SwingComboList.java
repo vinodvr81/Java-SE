@@ -41,6 +41,10 @@ class MyFrame extends JFrame implements ActionListener
         
         
     }
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
 public class SwingComboList 

@@ -1,6 +1,7 @@
 
 package com.udemy.code;
 
+
 abstract class Super
 {
     public Super() { System.out.println("Super Constructor"); }
@@ -15,7 +16,7 @@ abstract class Super
 
 class Sub extends Super
 {
-    @Override
+	@java.lang.Override
     public void meth2()
     {
         System.out.println("Sub meth2");

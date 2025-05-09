@@ -1,7 +1,7 @@
 
 package com.udemy.code;
 
-class Super
+class SuperNew
 {
     public void meth1()
     {
@@ -14,9 +14,9 @@ class Super
     }
 }
 
-class Sub extends Super
+class SubNew extends SuperNew
 {
-    @Override
+    @java.lang.Override
     public void meth2()
     {
         System.err.println("Sub Meth2");
@@ -32,7 +32,7 @@ public class DynamicDispatch
 {
     public static void main(String[] args) 
     {
-        Super sup=new Sub();
+        SuperNew sup=new SubNew();
        
         sup.meth1();
         sup.meth2();

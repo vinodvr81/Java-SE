@@ -37,7 +37,7 @@ class MyFrame extends JFrame implements ListSelectionListener
         
     }
 
-    @Override
+    @java.lang.Override
     public void valueChanged(ListSelectionEvent e) 
     {
         String str=(String)list.getSelectedValue();
@@ -62,6 +62,11 @@ class MyFrame extends JFrame implements ListSelectionListener
                         
         }
     }
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
     
 }
 

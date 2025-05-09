@@ -82,6 +82,12 @@ class MyFrame extends JFrame implements ActionListener
         if(r3.isSelected())
             lp.setLayer(l4, 3);
     }
+
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
     
 }
 public class SwingLayeredDemo 

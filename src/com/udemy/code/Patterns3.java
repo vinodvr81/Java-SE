@@ -1,6 +1,6 @@
 package com.udemy.code;
 
-public class Patterns1 {
+public class Patterns3 {
 
     /*public static void main(String[] args) {
             for(int i=1;i<5;i++)

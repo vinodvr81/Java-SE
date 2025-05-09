@@ -37,6 +37,11 @@ class MyFrame extends JFrame
       
       
     }
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
 public class SwingTextField 

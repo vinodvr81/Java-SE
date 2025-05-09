@@ -3,11 +3,11 @@ package com.udemy.code;
 
 import java.io.*;
 
-class Producer extends Thread
+class ProducerN extends Thread
 {
     OutputStream os;
     
-    public Producer(OutputStream o)
+    public ProducerN(OutputStream o)
     {
         os=o;
     }
@@ -33,11 +33,11 @@ class Producer extends Thread
     
 }
 
-class Consumer extends Thread
+class ConsumerN extends Thread
 {
     InputStream is;
     
-    public Consumer(InputStream s)
+    public ConsumerN(InputStream s)
     {
         is=s;
     }
@@ -73,8 +73,8 @@ public class PipedDemo
        
        pos.connect(pis);
        
-       Producer p=new Producer(pos);
-       Consumer c=new Consumer(pis);
+       ProducerN p=new ProducerN(pos);
+       ConsumerN c=new ConsumerN(pis);
        
        p.start();
        

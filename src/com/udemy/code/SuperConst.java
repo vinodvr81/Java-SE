@@ -1,16 +1,16 @@
 package com.udemy.code;
 
 
-class Rectangle
+class RectangleCr
 {
     int length;
     int breadth;
     
-    Rectangle()
+    RectangleCr()
     {
         length=breadth=1;
     }
-    Rectangle(int l,int b)
+    RectangleCr(int l,int b)
     {
         length=l;
         breadth=b;
@@ -18,7 +18,7 @@ class Rectangle
    
 }
 
-class Cuboid extends Rectangle
+class Cuboid extends RectangleCr
 {
     int height;
     
@@ -56,43 +56,29 @@ public class SuperConst
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-class Parent
+class ParentX
 {
-    Parent()
+	ParentX()
     {
         System.out.println("Non-Param of Parent");
     }
-    Parent(int x)
+	ParentX(int x)
     {
         System.out.println("Param of Parent "+x);
     }
 }
 
-class Child extends Parent
+class ChildX extends ParentX
 {
-    Child()
+	ChildX()
     {
         System.out.println("Non-Param of Child");
     }
-    Child(int y)
+	ChildX(int y)
     {
         System.out.println("Param of Child");
     }
-    Child(int x,int y)
+	ChildX(int x,int y)
     {
         super(x);
         System.out.println("2 Param of Child "+y);

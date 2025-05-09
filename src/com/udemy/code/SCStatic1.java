@@ -1,7 +1,7 @@
 package com.udemy.code;
 import java.util.Date;
 
-class Student
+class StudentCheck
 {
     private String rollNo;
     
@@ -15,7 +15,7 @@ class Student
         count++;
         return rno;
     }
-    Student()
+    StudentCheck()
     {
         rollNo=assignRollNo();
     }
@@ -30,9 +30,9 @@ public class SCStatic1
 {
     public static void main(String[] args) 
     {
-        Student s1=new Student();
-        Student s2=new Student();
-        Student s3=new Student();
+    	StudentCheck s1=new StudentCheck();
+    	StudentCheck s2=new StudentCheck();
+    	StudentCheck s3=new StudentCheck();
         
         System.out.println(s1.getRollNo());
         System.out.println(s2.getRollNo());

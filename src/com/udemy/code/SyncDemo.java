@@ -1,6 +1,6 @@
 package com.udemy.code;
 
-class MyData
+class MyDataT
 {
     synchronized public void display(String str)
     {
@@ -15,8 +15,8 @@ class MyData
 
 class MyThread1 extends Thread
 {
-    MyData d;
-    public MyThread1(MyData d)
+	MyDataT d;
+    public MyThread1(MyDataT d)
     {
         this.d=d;
     }
@@ -31,8 +31,8 @@ class MyThread1 extends Thread
 
 class MyThread2 extends Thread
 {
-    MyData d;
-    public MyThread2(MyData d)
+	MyDataT d;
+    public MyThread2(MyDataT d)
     {
         this.d=d;
     }
@@ -49,7 +49,7 @@ public class SyncDemo
 {
     public static void main(String[] args) 
     {
-        MyData data=new MyData();
+    	MyDataT data=new MyDataT();
         
         MyThread1 t1=new MyThread1(data);
         MyThread2 t2=new MyThread2(data);

@@ -49,11 +49,18 @@ class MyFrame extends JFrame implements ActionListener
         m1.addActionListener(this);
     }
 
-    @Override
+    @java.lang.Override
     public void actionPerformed(ActionEvent e) {
         MyInternalFrame mi=new MyInternalFrame();
         dp.add(mi);
     }
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
 }
 public class InternalDemo {
 

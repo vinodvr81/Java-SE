@@ -1,17 +1,18 @@
 package com.udemy.code;
 
-abstract class Super
-{
-    abstract public void meth1();
-}
 
-class Sub extends Super
-{
-    public void meth1()
-    {
-        
-    }
-}
+//abstract class Super
+//{
+//    abstract public void meth1();
+//}
+//
+//class Sub extends Super
+//{
+//    public void meth1()
+//    {
+//        
+//    }
+//}
 
 public class AbstractRules {
 

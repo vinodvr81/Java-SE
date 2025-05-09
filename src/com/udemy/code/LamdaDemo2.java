@@ -1,13 +1,13 @@
 package com.udemy.code;
 
-interface MyLambda
+interface MyLambdaNewType
 {
     public void display();
 }
 
 class UseLambda
 {
-    public void callLambda(MyLambda ml)
+    public void callLambda(MyLambdaNewType ml)
     {
         ml.display();
     }

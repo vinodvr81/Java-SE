@@ -1,7 +1,7 @@
 
 package com.udemy.code;
 
-class Circle 
+class CircleNewType 
 {
     public double radius;
     
@@ -23,7 +23,7 @@ class Circle
 public class Java1 {
 
     public static void main(String[] args) {
-     Circle c1=new Circle();
+    	CircleNewType c1=new CircleNewType();
      c1.radius=7;
      System.out.println("Area:"+c1.area());
      System.out.println("Perimeter:"+c1.perimeter());

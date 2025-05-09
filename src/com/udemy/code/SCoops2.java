@@ -39,19 +39,19 @@ class Product
     }
 }
 
-class Customer
+class CustomerNx
 {
     private String custId;
     private String name;
     private String address;
     private String phno;
     
-    public Customer(String custId,String name)
+    public CustomerNx(String custId,String name)
     {
         this.custId=custId;
         this.address=name;
     }
-    public Customer(String custId,String name,String address,String phno)
+    public CustomerNx(String custId,String name,String address,String phno)
     {
         this.custId=custId;
         this.address=name;

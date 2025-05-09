@@ -11,7 +11,7 @@ class A
 
 class B extends A
 {
-    @Override
+	@java.lang.Override
     public void display()
     {
         

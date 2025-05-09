@@ -53,11 +53,11 @@ class Teacher extends Thread
     
 }
 
-class Student extends Thread
+class StudentTread extends Thread
 {
     String name;
     WhiteBoard wb;
-    public Student(String n,WhiteBoard w)
+    public StudentTread(String n,WhiteBoard w)
     {
         name=n;
         wb=w;
@@ -86,10 +86,10 @@ public class SCThread2
         WhiteBoard wb=new WhiteBoard();
         Teacher t=new Teacher(wb);
         
-        Student s1=new Student("1. John",wb);
-        Student s2=new Student("2. Ajay",wb);
-        Student s3=new Student("3. Kloob",wb);
-        Student s4=new Student("4. Smith",wb);
+        StudentTread s1=new StudentTread("1. John",wb);
+        StudentTread s2=new StudentTread("2. Ajay",wb);
+        StudentTread s3=new StudentTread("3. Kloob",wb);
+        StudentTread s4=new StudentTread("4. Smith",wb);
         
         t.start();
         

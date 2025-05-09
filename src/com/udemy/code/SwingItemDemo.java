@@ -69,6 +69,11 @@ class MyFrame extends JFrame implements ActionListener
         tf.setFont(f);
         
     }
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
     
     
 }

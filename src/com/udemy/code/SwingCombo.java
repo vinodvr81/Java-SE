@@ -45,6 +45,12 @@ ImageIcon icon = new ImageIcon("/Users/abdulbari/NetBeansProjects/SwingCombo/src
         }
         cb.addItem(s);
     }
+
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
  
 }
  

@@ -58,6 +58,11 @@ class MyFrame extends JFrame implements ActionListener
         jp.add(mi);
         
     }
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 public class SwingInternalFrame 
 {

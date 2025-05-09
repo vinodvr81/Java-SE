@@ -42,7 +42,7 @@ class MyFrame extends JFrame implements ChangeListener
         sl.addChangeListener(this);
     }
 
-    @Override
+    @java.lang.Override
     public void stateChanged(ChangeEvent e) 
     {
         w=sl.getValue();
@@ -52,6 +52,11 @@ class MyFrame extends JFrame implements ChangeListener
         pb.setValue(w);
        
     }
+
+	public void setDefaultCloseOperation(int exitOnClose) {
+		// TODO Auto-generated method stub
+		
+	}
     
 }
 
